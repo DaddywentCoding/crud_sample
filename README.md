@@ -1,24 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Rails 課題2
 
-Things you may want to cover:
+resources を使わない「CRUDアプリ」を作成してコミットして下さい。
 
-* Ruby version
+【テキスト教材】CRUD処理の実装を見ながら一通り実装いたしました！
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+データベースは PostgreSQLです。
