@@ -3,6 +3,7 @@ class UsersController < ApplicationController
   def index
     @users = User.all
   end
+
   # 新規作成画面に対応するアクション
   def new
     @user = User.new
@@ -12,6 +13,11 @@ class UsersController < ApplicationController
     # Strong Parameter の記述
     User.create(user_params)
     redirect_to action: :index
+  end
+
+  # 詳細情報を表示するアクション
+  def show
+    @user = User.find(params[:id])
   end
 
   def edit
@@ -29,7 +35,6 @@ class UsersController < ApplicationController
     user.destroy
     redirect_to action: :index
   end
-
 
   private
   def user_params
