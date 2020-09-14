@@ -2,8 +2,10 @@
 
 Rails 課題2
 
-resources を使わない「CRUDアプリ」を作成してコミットして下さい。
+resources を使わない「CRUDアプリ」を作成しました。
 
-【テキスト教材】CRUD処理の実装を見ながら一通り実装いたしました！
+ブランチをmasterからresources_crud_sampleに切り替え, resourcesを使った「CRUDアプリ」に修正してプルリクを出しました。
 
 データベースは PostgreSQLです。
+
+確認よろしくお願いいたします！
